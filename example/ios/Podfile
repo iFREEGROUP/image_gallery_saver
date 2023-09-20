@@ -2,7 +2,9 @@
 # platform :ios, '11.0'
 
 # source '源地址'
-source 'https://github.com/CocoaPods/Specs.git'
+# 引入阿里推送后需要加上这两句
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/aliyun/aliyun-specs.git'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
